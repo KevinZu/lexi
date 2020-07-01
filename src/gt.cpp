@@ -1,5 +1,11 @@
+#include <stdio.h>
 #include <gtk/gtk.h>
-int main( int argc, char *argv[])
+void gtest(int a)
+{
+	printf("===:%d\n",a);
+}
+
+int gt( int argc, char **argv)
 {
     GtkWidget *window;
     /*初始化整个GTK+程序，是每一个GTK+程序必不可少的部分*/
